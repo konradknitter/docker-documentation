@@ -30,5 +30,6 @@ RUN pip3 install sphinxcontrib_plantuml
 RUN pip3 install sphinxcontrib-svg2pdfconverter
 RUN pip3 install sphinxcontrib-confluencebuilder
 RUN pip3 install cairosvg
+RUN pip3 install docxbuilder
 
 CMD ["/bin/bash"]
