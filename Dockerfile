@@ -32,5 +32,6 @@ RUN pip3 install sphinxcontrib-svg2pdfconverter
 RUN pip3 install sphinxcontrib-confluencebuilder
 RUN pip3 install cairosvg
 RUN pip3 install docxbuilder
+RUN pip3 install sphinx-csv-filter
 
 CMD ["/bin/bash"]
