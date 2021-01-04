@@ -11,7 +11,6 @@ RUN apt-get update && apt-get install -y \
     git \
 # Used for Static Analysis
     python3 \
-    plantuml \
     texlive \
     texlive-latex-recommended \
     texlive-fonts-recommended \
@@ -36,5 +35,8 @@ RUN pip3 install sphinxcontrib-confluencebuilder
 RUN pip3 install cairosvg
 RUN pip3 install docxbuilder
 RUN pip3 install sphinx-csv-filter
+
+RUN wget -o /bin/plantuml.jar https://deac-ams.dl.sourceforge.net/project/plantuml/plantuml.jar
+RUN alias plantuml='java -jar /bin/plantuml.jar'
 
 CMD ["/bin/bash"]
