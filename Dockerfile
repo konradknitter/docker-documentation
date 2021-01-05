@@ -12,6 +12,7 @@ RUN apt-get update && apt-get install -y \
 # Used for Static Analysis
     python3 \
     texlive \
+    graphviz \
     texlive-latex-recommended \
     texlive-fonts-recommended \
     texlive-latex-extra \
