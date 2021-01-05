@@ -36,7 +36,7 @@ RUN pip3 install cairosvg
 RUN pip3 install docxbuilder
 RUN pip3 install sphinx-csv-filter
 
-RUN wget -o /bin/plantuml.jar https://deac-ams.dl.sourceforge.net/project/plantuml/plantuml.jar
+RUN wget -O /bin/plantuml.jar https://deac-ams.dl.sourceforge.net/project/plantuml/plantuml.jar
 RUN alias plantuml='java -jar /bin/plantuml.jar'
 
 CMD ["/bin/bash"]
