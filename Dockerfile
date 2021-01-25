@@ -18,6 +18,7 @@ RUN apt-get update && apt-get install -y \
     texlive-latex-extra \
     texlive-font-utils \
     make \
+    graphviz \
  # More documentation tools
     default-jre \
     sphinx-common \
