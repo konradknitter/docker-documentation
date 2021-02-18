@@ -33,7 +33,6 @@ RUN apt-get update && apt-get install -y \
 RUN pip3 install -U sphinx
 RUN pip3 install sphinxcontrib_plantuml
 RUN pip3 install sphinxcontrib-svg2pdfconverter
-RUN pip3 install sphinxcontrib-confluencebuilder
 RUN pip3 install cairosvg
 RUN pip3 install docxbuilder
 RUN pip3 install sphinx-csv-filter
